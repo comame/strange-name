@@ -19,8 +19,9 @@ func main() {
 	}
 
 	// キモくなる順に並び替えてある
+	// 'i' は大文字にしてもあんまりキモくないので除外
 	vowels := []rune{
-		'o', 'u', 'e', 'a', 'i',
+		'o', 'u', 'e', 'a',
 	}
 	vowelCounts := make(map[rune]uint8)
 
